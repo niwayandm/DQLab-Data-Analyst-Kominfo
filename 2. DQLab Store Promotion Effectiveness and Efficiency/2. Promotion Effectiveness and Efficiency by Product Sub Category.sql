@@ -13,3 +13,13 @@ GROUP BY
  product_sub_category, 
  product_category
 ORDER by sales DESC;
+
+console (output) ::
++-------+--------------------+
+| years | number_of_customer |
++-------+--------------------+
+|  2009 |                585 |
+|  2010 |                593 |
+|  2011 |                581 |
+|  2012 |                594 |
++-------+--------------------+

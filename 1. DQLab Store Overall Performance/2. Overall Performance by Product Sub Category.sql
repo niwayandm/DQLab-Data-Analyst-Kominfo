@@ -8,7 +8,7 @@ WHERE order_status = 'Order Finished'
 GROUP BY years, product_sub_category
 ORDER BY years, sales DESC;
 
-console (output) ::
+console (output) :
 +-------+--------------------------------+-----------+
 | years | product_sub_category           | sales     |
 +-------+--------------------------------+-----------+

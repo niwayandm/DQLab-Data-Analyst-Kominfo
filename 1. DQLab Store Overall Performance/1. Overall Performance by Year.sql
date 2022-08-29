@@ -7,7 +7,7 @@ WHERE order_status = 'Order Finished'
 GROUP BY YEAR(order_date)
 ORDER BY years;
 
-console (output) ::
+console (output) :
 +-------+------------+-----------------+
 | years | sales      | number_of_order |
 +-------+------------+-----------------+
